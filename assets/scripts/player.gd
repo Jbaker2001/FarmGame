@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-var speed = 60.0
+@export var speed: float = 60.0
 
 func _physics_process(delta: float) -> void:
 	# Get the input direction and handle the movement/deceleration.
