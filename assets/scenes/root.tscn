@@ -6,8 +6,12 @@
 [node name="Root" type="Node2D"]
 
 [node name="Ground" parent="." instance=ExtResource("1_a5868")]
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_ohtli")]
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(3, 3)
+
+[node name="CharacterBody2D" parent="Ground" instance=ExtResource("2_ohtli")]
+position = Vector2(13, -1)
+scale = Vector2(0.15, 0.15)
+
+[node name="Camera2D" type="Camera2D" parent="Ground/CharacterBody2D"]
+position = Vector2(3, 3)
+zoom = Vector2(5, 5)
