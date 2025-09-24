@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://ggnw514ovkdw"]
+[gd_scene load_steps=5 format=4 uid="uid://ggnw514ovkdw"]
 
 [ext_resource type="Texture2D" uid="uid://dobmmy1qx6gag" path="res://assets/sprites/greenGround.png" id="1_8nyxy"]
+[ext_resource type="Script" uid="uid://cgxo62l0jt6ct" path="res://assets/scenes/ground.gd" id="2_tmy5c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8nyxy"]
 texture = ExtResource("1_8nyxy")
@@ -24,3 +25,4 @@ position = Vector2(272, -213)
 tile_map_data = PackedByteArray("AAD7/xAABAAAAAAAAAD6/w8ABAAAAAAAAAD7/w4ABAAAAAAAAAD6/w0ABAAAAAAAAAD7/wwABAAAAAAAAAD7/w0ABAAAAAAAAAD8/wwABAAAAAAAAAD7/wsABAAAAAAAAAD7/woABAAAAAAAAAD6/wsABAAAAAAAAAD6/wwABAAAAAAAAAD5/w0ABAAAAAAAAAD6/w4ABAAAAAAAAAD7/w8ABAAAAAAAAAD8/w4ABAAAAAAAAAD8/w0ABAAAAAAAAAA=")
 tile_set = SubResource("TileSet_cbaor")
 occlusion_enabled = false
+script = ExtResource("2_tmy5c")

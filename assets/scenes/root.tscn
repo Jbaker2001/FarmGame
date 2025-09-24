@@ -11,6 +11,7 @@ position = Vector2(3, 3)
 [node name="CharacterBody2D" parent="Ground" instance=ExtResource("2_ohtli")]
 position = Vector2(13, -1)
 scale = Vector2(0.15, 0.15)
+floor_constant_speed = true
 
 [node name="Camera2D" type="Camera2D" parent="Ground/CharacterBody2D"]
 position = Vector2(3, 3)
