@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4ldduy4yidj0"
-path="res://.godot/imported/waterSprite.png-dc86e4162cf62fe80b5465dad8e83299.ctex"
+uid="uid://dobmmy1qx6gag"
+path="res://.godot/imported/greenGround.png-486ae634c402438616d7518d1572af8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/waterSprite.png"
-dest_files=["res://.godot/imported/waterSprite.png-dc86e4162cf62fe80b5465dad8e83299.ctex"]
+source_file="res://assets/sprites/greenGround.png"
+dest_files=["res://.godot/imported/greenGround.png-486ae634c402438616d7518d1572af8c.ctex"]
 
 [params]
 
