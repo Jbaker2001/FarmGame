@@ -9,7 +9,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	var lastKnownMousePosition = Vector2.ZERO
 	var currentMousePosition = TileMapLayer.new().map_to_local(get_local_mouse_position())
+	
 	if(_checkMouseMove(lastKnownMousePosition, currentMousePosition)):
+		lastKnownMousePosition = currentMousePosition
 		print(currentMousePosition)
 	pass
 
